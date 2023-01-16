@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 
-const UserInput = (props, ref) => {
+const UserInput = (ref) => {
   return (
     <div>
       <input type="text" ref={ref} />

@@ -7,7 +7,7 @@ export const App = () => {
 
   const updateInput = () => {
     inputRef.current.value = "Anil kumar"
-    inputRef.current.value = 'red'
+    inputRef.current.style.color = 'red'
   };
 
   return (
